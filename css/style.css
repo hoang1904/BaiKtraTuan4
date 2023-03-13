@@ -1,0 +1,214 @@
+
+        #menu-container {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #left-menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 20%;
+            
+        }
+
+        #right-menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 20%;
+        }
+        
+        #left-menu2 {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 30%;
+            position: relative ;
+            left: 100px;
+        }
+
+        h3{
+            display: flex;
+            color: greenyellow;
+            align-items:center;
+            width: auto;
+        }
+
+        #Product-container{
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .product-item1{
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            left: 110px;
+        }
+
+        .product-item1
+            >img{
+            margin-bottom: 12px;
+        }
+        .product-item2
+            >img{
+            margin-left: 120px;
+            height: 550px;
+        }
+        .product-item2{
+            display: flex;
+        }
+
+        .product-item2>div{
+            position: relative;
+            right: 90px;
+            top: 6px;
+            height: 20px;
+            width: 100px;
+            background-color: #ffc970;
+            font-size: 12px;
+            text-align: center;
+            border-radius: 14px;
+            padding-top: 5px;
+            color: #9d722d;
+            
+        }
+        .product-item3{
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            top: -30px;
+        }
+
+        .sub-item-product1{
+            margin-bottom: 15px;
+        }
+        
+        .sub-item-product1>h1{
+            font-size: 40px;
+            margin-bottom: 0px;
+        }
+        
+        .sub-item-product1>p{
+            margin-top: 5px;
+            color: gray;
+        }
+        
+        .sub-item-product2{
+            margin-top: 0px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 0px;
+        }
+        
+        .sub-item-product2>h3{
+            margin-top: 0px;
+            font-size: 40px;
+            color: rgb(173, 255, 47);
+            margin-right: 20px;
+        }
+        
+        .sub-item-product2>h4{
+            color: rgba(66, 66, 66, 0.5);
+            font-size: 20px;
+            margin-top: -10px;
+            margin-right: 20px;
+        }
+        
+        .detail{
+            margin-top: 0px;
+            color: gray;
+        }
+        
+        .sub-item-product3{
+            display: flex;
+            justify-content : start ;
+            align-items: center;
+        }
+
+        .sub-item-product4{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .sub-item-product4
+            >div{
+            display: flex;
+            align-items: center;
+        }
+        
+        .sub-item-product4
+            >div
+            >img{
+            margin-right: 7px;
+            margin-top: 0px;
+        }
+
+        .sub-item-product5{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .sub-item-product5>select{
+            height: 41px;
+            background-color: #f3f4f6;
+            font-size: 15px;
+            margin-top: 5px;
+            border-color: white;
+            width: 565px;
+        }
+
+        .sub-item-product5{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .sub-item-product5
+            >select{
+            height: 41px;
+            background-color: #f3f4f6;
+            font-size: 15px;
+            margin-top: 5px;
+            border-color: white;
+            width: 565px;
+        }
+       
+        .sub-item-product6
+            >p{
+            margin-bottom: 5px;
+        }
+        
+        .sub-item-product6
+            >img{
+            margin-right: 8px;
+        }
+        
+        .sub-item-product7
+            >button{
+            margin-top: 21px;
+            width: 266px;
+            height: 50px;
+            margin-right: 26px;
+        }
+
+        .button1{
+            border: 2px solid;
+            border-color: green;
+            background-color: white;
+            border-radius: 5px;
+            font-size: 17px;
+        }
+        .button2{
+            border: 2px solid;
+            border-color: green;
+            background-color: green;
+            border-radius: 5px;
+            font-size: 17px;
+            color: white;
+        }
+
+        
+        
+
+     
